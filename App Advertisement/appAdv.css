@@ -1,0 +1,118 @@
+:root {
+	--dark: #32323a;
+	--grey: #545463;
+	--greyBG: #f7f9fa;
+	--textgreyBg: #a1a1a1;
+	--red: #d73c46;
+}
+
+.appAdd {
+	margin: 0;
+	padding: 20px;
+	background-color: white;
+}
+.appAdd-container {
+	padding: 0 10px;
+	margin-bottom: 80px;
+	font-family: sans-serif;
+}
+.add-videos video {
+	width: 100%;
+}
+.add-videos {
+	width: 30vw;
+	height: 30vw;
+	/* min-width:350px ; */
+	/* min-height:350px; */
+	float: right;
+	right: 10vw;
+	top: 5vw;
+	position: relative;
+	/* overflow: hidden; */
+}
+.appAdd-container .text-container {
+	padding-left: 20px;
+	width: 33vw;
+	margin-top: 50px;
+}
+.appAdd-container .text-container .notch {
+	width: 5vw;
+}
+.appAdd-container .text-container .appAdd-heading {
+	font-family: sans-serif;
+	display: flex;
+	white-space: break-spaces;
+	margin: 24px 0px 0px;
+	padding: 0px;
+	color: rgb(39, 39, 47);
+	font-size: 45px;
+	font-weight: 900;
+}
+.appAdd-container .text-container ul {
+	list-style-type: none;
+	padding-inline-start: 1.25em;
+	margin-top: 2em;
+}
+.appAdd-container .text-container .addText li {
+	list-style-type: none;
+	padding: 1.75em 0em 1.5em 0.5em;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+.appAdd-container .text-container .addText li .sub-heading {
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 700;
+	color: rgb(84, 84, 99);
+}
+.appAdd-container .text-container .addText li .sub-text {
+	margin-top: 4px;
+	align-self: flex-start;
+	text-align: left;
+	font-weight: 500;
+	font-size: 14px;
+	max-width: 75%;
+	color: rgb(129, 129, 129);
+	display: none;
+}
+.appAdd-container .text-container .addText .active {
+	background-color: var(--greyBG);
+	padding: 1.75em 0em 1.75em 0.5em;
+	width: 600px;
+}
+.appAdd-container .text-container .addText .active .sub-heading {
+	font-size: 26px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 700;
+	color: rgb(215, 60, 70);
+}
+.appAdd-container .text-container .addText .active .sub-text {
+	margin-top: 4px;
+	align-self: flex-start;
+	text-align: left;
+	font-weight: 500;
+	font-size: 14px;
+	max-width: 75%;
+	color: rgb(129, 129, 129);
+	display: block;
+}
+.appAdd-container .text-container .app-icons {
+	margin-left: 1.5em;
+}
+.appAdd-container .text-container .app-icons .app-icon-text {
+    margin: 0px;
+padding: 0px;
+font-weight: 500;
+font-size: 18px;
+color: rgb(39, 39, 47);
+font-family: "Roboto", sans-serif;
+}
+.appAdd-container .text-container .app-icons .icon-link img {
+	width: 3em;
+	margin-right: 2em;
+    cursor: pointer;
+    font-size:20px;
+    margin-top:20px;
+}

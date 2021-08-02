@@ -1,0 +1,151 @@
+.footer{
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(26, 23, 23);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.footer1{
+    display: flex;
+    flex:1;
+   flex-direction: row;
+    margin: 89px 150px ;
+    margin-right: 130px;
+    max-width: 1920px;
+    min-width: 1024px;
+}
+.logo-udaan-footer{
+    height: 103px;
+    width: 103px;
+}
+
+.firstfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    border-top: 3px solid red;
+    border-width: 150%;
+    padding-top: 18px;
+
+}
+.firstfoot a{
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 121, 121);
+}
+
+.secondfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    border-top: 3px solid red;
+    padding-top: 18px;
+
+}
+.secondfoot a{
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 121, 121);
+}
+.thirdfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    border-top: 3px solid red;
+    padding-top: 18px;
+}
+.thirdfoot a{
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 121, 121);
+}
+.fourthfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    border-top: 3px solid red;
+    padding-top: 18px;
+
+}
+.fourthfoot a{
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    
+        color: rgb(192, 121, 121);
+    }
+.fifthfoot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    border-top: 3px solid red;
+    padding-top: 18px;
+    margin-right: 10px;
+}
+.fifthfoot a{
+    color: rgb(240, 232, 232);
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(192, 121, 121);
+}
+
+.fa::before{
+    margin-right: 10px;
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+.navbar-nav > li{
+    padding-left:20px;
+    /* padding-right:10px; */
+}
+
+.navbar-nav > li{
+margin-left:20px;
+/* margin-right:30px; */
+}
+
+form{
+    padding-left: 260px;
+}
+
+#headingSpace{
+    padding-left: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+li.nav-item{
+    padding-left: 30px;
+}
+
+ul.navbar-nav{
+    padding-left: 120px;
+}

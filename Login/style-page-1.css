@@ -1,0 +1,121 @@
+/* define variable in root */
+:root {
+    --discolor: rgba(215, 60, 70, 0.555);
+    --color: rgb(215, 60, 70);
+    --background: #fff;
+    --font-family: roboto, sans-serif;
+}
+
+body{
+   background-color: rgba(0, 0, 0, 0.089);
+   
+
+}
+.container{
+    position: fixed;
+    /* background-color: #fafafa; */
+     /* background opacity 0.2 */
+     background-image: url('assets/bg-desktop.png');
+    display: flex;
+   height: 100vh;
+   width: 100vw;
+}
+.body{
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.33);
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-body h1{
+     font-size: 21px;
+     font-family: var(--font-family);
+     line-height: 32px;
+     color: rgb(39, 39, 47);
+     font-weight: bold;
+     text-align: center;
+}
+.card-body p{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: normal;
+    color: rgb(129, 129, 129);
+    margin-top: 8px;
+    max-width: 80%;
+    text-align: center;
+}
+form label{
+    
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: normal;
+        color: rgb(85, 85, 98);
+    
+}
+.css-1dbjc4n{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* .css-1dbjc4n:active{
+    border: 10px solid blue;
+} */
+.clamp-undefined{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: rgb(85, 85, 98);
+}
+.card-footer{
+    display: flex;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.card-footer button{
+    width: 100%;
+    background-color: var(--discolor);
+    border: none;
+    color: rgb(212, 212, 212);
+    font-family: var(--font-family);
+    border-color: var(--color);
+    border-radius: 4px;
+    border-width: 0px;
+    height: 52px;
+    font-size: large;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    font-weight: 500px;
+    line-height: 21px;
+}
+
+
+.activebutton{
+    background-color: var(--color)!important;
+    cursor: pointer!important;
+}
+#loading{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

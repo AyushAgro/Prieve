@@ -1,0 +1,101 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="appAdv.css"> 
+    <title>APP ADVERTISEMENT</title> 
+</head> 
+<body> 
+    <div class="appAdd"> 
+        <div class="appAdd-container"> 
+            <div class="add-videos"> 
+                <video src="" id="vidplay" loop autoplay></video> 
+            </div> 
+            <div class="text-container"> 
+                <img src="https://udaan.com/images/notch.c69471fc6952906ce89974628364884f.png" alt="TOP-NOTCH" class= "notch"> 
+                <div class="appAdd-heading">A powerful mobile app for quick & easy buying</div> 
+                <ul class="addText"> 
+                    <li class="text1"> 
+                        <div class="sub-heading">Best offers and deals</div> 
+                        <div class="sub-text">Enjoy great margins! Exciting discounts on products during sale events.</div> 
+                    </li> 
+                    <li class="text2 "> 
+                        <div class="sub-heading">Easy browsing and bordering</div> 
+                        <div class="sub-text">Browse the product across categories and choose from a wide range.</div> 
+                    </li> 
+                    <li class="text3"> 
+                        <div class="sub-heading">Safe payment options</div> 
+                        <div class="sub-text">Multiple payments option including Cash on Delivery, Debit & Credit cards, e-wallets & UPI.</div> 
+                    </li> 
+                </ul> 
+                <div class="app-icons"> 
+                    <div class="app-icon-text">Download udaan app</div> 
+                    <div class="icon-link"> 
+                        <img src="https://ud-img.azureedge.net/f_auto,q_auto:eco,w_100/u/assets/Appstore.png" alt="apple-store" srcset=""> 
+                        <img src="https://ud-img.azureedge.net/f_auto,q_auto:eco,w_100/u/assets/Playstore.png" alt="google-play-store"> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div>   
+    <script> 
+        videolink1 = "https://ud-video.azureedge.net/h_1080/u/assets/3m14tjoaeataw8rnm5ma.mp4"; 
+        videolink2 = "https://ud-video.azureedge.net/h_1080/u/assets/hso0zacj9q8zit17y5ph.mp4"; 
+        videolink3 = "https://ud-video.azureedge.net/h_1080/u/assets/mvhhsswr44luaer1psqq.mp4"; 
+         
+        // Loop through all childern of class "addText" 
+        text1 = document.getElementsByClassName("text1"); 
+        text2 = document.getElementsByClassName("text2"); 
+        text3 = document.getElementsByClassName("text3"); 
+ 
+        count =1; 
+        updateclass(); 
+        setInterval(updateclass,21000); 
+        function updateclass() { 
+            updateclass1(); 
+            setTimeout(updateclass2, 5000); 
+            setTimeout(updateclass3, 15000); 
+        } 
+         
+    function updateclass3(){ 
+       
+                // add class active in text3 
+                text3[0].className += " active"; 
+                // remove class active in text1 
+                text1[0].className = text1[0].className.replace("active", ""); 
+                // remove class active in text2 
+                text2[0].className = text2[0].className.replace("active", ""); 
+                // select video from id vidplay and change its src to video3 
+                document.getElementById("vidplay").src = videolink3; 
+              
+    } 
+            
+    function updateclass2(){ 
+                // add class active in text2 
+                text2[0].className += " active"; 
+                // remove class active in text1 
+                text1[0].className = text1[0].className.replace("active", ""); 
+                // remove class active in text3 
+                text3[0].className = text3[0].className.replace("active", "");
+                // select video from id vidplay and change its src to video2 
+                document.getElementById("vidplay").src = videolink2; 
+            } 
+            
+    function updateclass1(){ 
+                // add class active in text1 
+                text1[0].className += " active"; 
+                // remove class active in text2 
+                text2[0].className = text2[0].className.replace("active", ""); 
+                // remove class active in text3 
+                text3[0].className = text3[0].className.replace("active", ""); 
+                // select video from id vidplay and change its src to video1 
+                document.getElementById("vidplay").src = videolink1; 
+            } 
+     
+ 
+ 
+    </script>   
+</body> 
+</html>

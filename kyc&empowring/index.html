@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYC</title>
+</head>
+
+<body>
+  <div class="container-fluid kyc animate__animated animate__fadeInUp">
+    <img src="notch.png" class="img" alt="Notificaition Bell" style='height:9px;margin-left: 550px;'>
+    <div class="h2 " id='kyc-heading'>
+      Start trading in 3 simple steps
+    </div>
+    <div class="row ">
+      <div class="col-md-2 " >
+        <img src="1.png" class="img-rounded" alt="Women Selling Icecream">
+        <h2 class='heading-photo'>
+          Create an account
+        </h2>
+        <p>
+          Register using your mobile number. Enter your Name, Shop name and Pincode.
+        </p>
+      </div>
+      <div class="col-md-2" id='dash'></div>
+      <div class="col-md-2 ">
+        <img src="2.png" class="img-rounded" alt="Mobile Phone">
+        <h2 class='heading-photo'>
+          Complete shop KYC
+        </h2>
+        <p>
+          Upload any one of shop's KYC documents like GSTIN, Shop & Establishment Licence
+        </p>
+      </div>
+      <div class="col-md-2" id='dash'></div>
+      <div class="col-md-2 ">
+        <img src="3.png" class="img-rounded" alt="Notificaition Bell">
+        <h2 class='heading-photo' style='margin-left: -70px;'>
+          Start Ordering
+        </h2>
+        <p>
+          Browse and order products for your shop from top sellers & brands
+        </p>
+      </div>
+    </div>
+    <button type="button" class="btn register-button ">
+      <div>
+        Register
+      </div>
+      <i class="fa fa-arrow-right"></i>
+    </button>
+  </div>
+  <div class='container customer-review ' style = 'opacity:0;'>
+    <img src="notch.png" class="img" alt="Notificaition Bell" style='height:9px;'>
+    <div class="row">
+      <div class="col-md-6">
+        <h2 id='customer-heading'>
+          Empowering businesses <br>across India
+        </h2>
+        <p id='customer-text'>
+          Hear what our customers have to say about their experience with udaan
+        </p>
+        <video id="video" style = 'animation-delay: 0.1s;'poster="video_1.png" >
+        </video>
+        <i class = 'fa fa-play-circle-o' style = 'top:55%;left: 50%;' data-toggle="modal" data-target="#myModal" data-backdrop="true"></i>
+        <h4 id = 'caption-head'>
+          Daisy Rani Das
+        </h4>
+        <p id = 'caption-text'>
+          Clothing
+        </p>
+      </div>
+      <div class="col-md-4" style='margin-top:-25px;'>
+        <video id="video" poster="video_2.png" >
+          <source src="2.mp4" type="video/mp4" />
+        </video>
+        <i class = 'fa fa-play-circle-o' style = 'top: 165px;left: 130px;' data-toggle="modal" data-target="#myModal2" data-backdrop="true"></i>
+        <h4 id = 'caption-head' style = 'top:40%;'>
+          Naveen Kantiwal
+        </h4>
+        <p id = 'caption-text' style = 'top:50%;'>
+          Clothing
+        </p>
+        <video id="video" poster="video_3.png">
+          <source src="3.mp4" type="video/mp4" />
+        </video>
+        <i class = 'fa fa-play-circle-o' style = 'top: 70%;left: 36%;' data-toggle="modal" data-target="#myModal3" data-backdrop="true"></i>
+        <h4 id = 'caption-head' style = 'top: 80%;'>
+          Mumbai
+        </h4>
+        <p id = 'caption-text' style = 'top:88%;'>
+          Electronic
+        </p>
+      </div>
+      <div class="col-md-2" id = 'video_4' style='margin-top:-25px;'>
+        <video id="video"poster="video_4.png">
+          <source src="4.mp4" type="video/mp4" />
+        </video>
+        <i class = 'fa fa-play-circle-o' style = 'top: 44%;left: 31%;' data-toggle="modal" data-target="#myModal4" data-backdrop="true"></i>
+        <h4 id = 'caption-head' style = 'left: -61px;'>
+          Nikesh Sahu
+        </h4>
+        <p id = 'caption-text' style = 'left: -61px;'>
+          Food & FMCG
+        </p>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog" style = 'height:60%; width:75%; background:transparent;'>
+        <div class="modal-content">
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <video id="video" class = 'play-video' style = 'width:100%; height:100%;' autoplay controls>
+              <source src="1.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal2">
+      <div class="modal-dialog" style = 'height:60%; width:75%; background:transparent;'>
+        <div class="modal-content">
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <video id="video" class = 'play-video' style = 'width:100%; height:100%;' autoplay controls>
+              <source src="2.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal3">
+      <div class="modal-dialog" style = 'height:60%; width:75%; background:transparent;'>
+        <div class="modal-content">
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <video id="video" class = 'play-video' style = 'width:100%; height:100%;' autoplay controls>
+              <source src="3.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal4">
+      <div class="modal-dialog" style = 'height:60%; width:75%; background:transparent;'>
+        <div class="modal-content">
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <video id="video" class = 'play-video' style = 'width:100%; height:100%;' autoplay controls>
+              <source src="4.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='script.js'>
+  </script>
+</body>
+
+
+</html>

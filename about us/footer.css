@@ -1,0 +1,209 @@
+.footer {
+	width: 100%;
+	overflow: auto;
+	background-color: #27272f;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+.footer1 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	margin: 89px 50px;
+	margin-right: 130px;
+	max-width: 1920px;
+	min-width: 1024px;
+}
+.logo-udaan-footer {
+	height: 103px;
+	width: 103px;
+}
+
+.firstfoot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	border-top: 3px solid red;
+	border-width: 150%;
+	padding-top: 18px;
+}
+.firstfoot a {
+	color: rgb(240, 232, 232);
+	font-size: 18px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 121, 121);
+}
+
+.secondfoot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	border-top: 3px solid red;
+	padding-top: 18px;
+}
+.secondfoot a {
+	color: rgb(240, 232, 232);
+	font-size: 18px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 121, 121);
+}
+.thirdfoot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	border-top: 3px solid red;
+	padding-top: 18px;
+}
+.thirdfoot a {
+	color: rgb(240, 232, 232);
+	font-size: 18px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 121, 121);
+}
+.fourthfoot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	border-top: 3px solid red;
+	padding-top: 18px;
+}
+.fourthfoot a {
+	color: rgb(240, 232, 232);
+	font-size: 18px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 121, 121);
+}
+.fifthfoot {
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	border-top: 3px solid red;
+	padding-top: 18px;
+	margin-right: 10px;
+}
+.fifthfoot a {
+	color: rgb(240, 232, 232);
+	font-size: 18px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 121, 121);
+}
+
+.fa::before {
+	margin-right: 10px;
+}
+
+.navbar-nav > li {
+	padding-left: 20px;
+}
+
+.navbar-nav > li {
+	margin-left: 20px;
+}
+
+
+#headingSpace {
+	padding-left: 50px;
+	font-size: 30px;
+	color: black;
+	padding-top: 15px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 800;
+	margin-left: 500px;
+    padding-top: 10px;
+}
+
+li.nav-item {
+	padding-left: 30px;
+}
+
+ul.navbar-nav {
+	padding-left: 120px;
+}
+nav .nav-link {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 500;
+	color: #27272f;
+}
+
+#logBtn {
+    align-self: flex-start;
+    background-color: rgba(255,255,255,1.00);
+    border-top-color: rgba(215,60,70,1.00);
+    border-right-color: rgba(215,60,70,1.00);
+    border-bottom-color: rgba(215,60,70,1.00);
+    border-left-color: rgba(215,60,70,1.00);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 93px;
+    font-size: 17px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #d73c46;
+}
+#nav-element {
+    font-family: Roboto;
+font-size: 14px;
+line-height: 22px;
+font-weight: 500;
+color: #27272f;
+}
+nav .container-fluid {
+align-self: center;
+height: 63px;
+padding-top: -3px;
+margin-bottom: 0px;
+background-color: white;
+}
+.d-flex {
+    border-top-color: rgba(235,235,235,1.00);
+    border-right-color: rgba(235,235,235,1.00);
+    border-bottom-color: rgba(235,235,235,1.00);
+    border-left-color: rgba(235,235,235,1.00);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px;
+    position: relative;
+    margin-left: 200px;
+}

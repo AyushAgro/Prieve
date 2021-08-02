@@ -1,0 +1,39 @@
+.about{
+    background-color: rgb(255,255,255,1.00);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    
+}
+.aboutfirst{
+    color: rgb(82, 96, 110);
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+}
+.aboutsechead{
+    color: rgba(33,43,54,1.00);
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+}
+.aboutthhead{
+    color: rgba(33,43,54,1.00);
+    font-weight: bold;
+    line-height: 20px;    
+}
+.aboutthhead2{
+
+    color: rgba(33,43,54,1.00);
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+
+}
+.store img:hover{
+    cursor: pointer;
+    
+}
+
+

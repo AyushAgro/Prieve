@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-page-1.css">
+    <title> Log In</title>
+</head>
+
+<body>
+    <style>
+        .body {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 380px;
+            height: 500px;
+        }
+
+        .card-header img {
+            display: flex;
+            left: 0;
+            right: 0;
+            margin: auto;
+            margin-top: 20px;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+    <div class="container">
+        <div class="body">
+            <div class="card">
+                <div class="card-header">
+                    <center><img src="assets/title-mobile-input-v2.png" /></center>
+                </div>
+                <div class="card-body">
+
+                    <center>
+                        <h1>Enter Mobile Number</h1>
+                        <p>Enter your 10-digit mobile number to receive the verification code.</p>
+                    </center>
+                    <form action="login-page-2.html">
+                        <label>Mobile number: </label>
+                        <div class="css-1dbjc4n"
+                            style="align-items: center; background-color: rgb(255, 255, 255); border-color: rgb(235, 235, 235); border-radius: 4px; border-width: 1px; flex-direction: row; margin-bottom: 8px; margin-top: 4px; padding: 4px; -webkit-box-align: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal;">
+                            <span class="clamp-undefined">
+                                +91</span>
+                            <input autocapitalize="sentences" autocomplete="mobile" autocorrect="on" dir="auto"
+                                spellcheck="true" type="tel" aria-label="mobileNumber" data-focusable="true"
+                                class="css-11aywtz r-16y2uox" id="mobileNumber" value=""
+                                style="background-color: rgb(255, 255, 255); border-radius: 4px; border-width: 0px; color: rgb(39, 39, 47); font-family: Roboto; font-size: 16px; font-style: normal; font-weight: 500; line-height: 24px; margin-left: 8px; outline: none; padding-top: 10px; padding-bottom: 10px;">
+                        </div>
+
+                </div>
+                <div class="card-footer">
+
+                    <button class="" id="getOtp">
+                        <span id="buttonspan"> Get Verification Code </span>
+                        <img src="loading.svg" id="loading" style="display: none;" />
+                    </button>
+
+
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- import jquery from cdn-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="script-page-1.js"></script>
+</body>
+
+</html>
